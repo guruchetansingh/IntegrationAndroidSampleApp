@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text_view_delete_card_cvv_info_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Select Card To Delete CVV"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list_view_delete_stored_card_cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:choiceMode="singleChoice"/>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/layout/layout_delete_stored_card_cvv.xml --><!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/bundles/debug/res/layout/layout_delete_stored_card_cvv.xml -->
