@@ -8,4 +8,4 @@
         android:toAlpha="1.0"
         android:interpolator="@android:anim/accelerate_interpolator"
         android:duration="500"/>
-</set><!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/anim/fade_in.xml -->
+</set><!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/anim/fade_in.xml -->

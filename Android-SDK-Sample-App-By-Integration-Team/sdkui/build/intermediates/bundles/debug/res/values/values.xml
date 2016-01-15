@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/arrays.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="offer_modes">
         <item>New card</item>
         <item>Stored card</item>
         <item>Net Banking</item>
     </string-array>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_demo">Demo</string>
     <string name="action_exit">Exit</string>
@@ -37,7 +37,7 @@
     <string name="title_activity_payments">PaymentsActivity</string>
     <string name="title_activity_user_cards">UserCardsActivity</string>
     <string name="title_activity_verify_api">VerifyApiActivity</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="AppTheme">
     </style>

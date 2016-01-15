@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/guruchetansingh/PayU Dev/sample aap/Android-SDK-Sample-App-s4.3.1c5.3.1 copy/sdkui/src/main/assets"/></dataSet><dataSet config="release"><source path="/Users/guruchetansingh/PayU Dev/sample aap/Android-SDK-Sample-App-s4.3.1c5.3.1 copy/sdkui/src/release/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/assets"/></dataSet><dataSet config="release"><source path="/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/release/assets"/></dataSet></merger>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/arrays.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="offer_modes">
         <item>New card</item>
         <item>Stored card</item>
         <item>Net Banking</item>
     </string-array>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -38,7 +38,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
     <eat-comment/>
     <color name="cb_background">#f6f6f6</color>
     <color name="cb_blue_button">#368ecd</color>
@@ -54,10 +54,10 @@
     <color name="cb_otpReceivedColor">#769b12</color>
     <color name="cb_payu_blue">#368ecd</color>
     <color name="cb_textColor">#8f8d8d</color>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
     <eat-comment/>
     <color name="com_mixpanel_android_selected">#66ffffff</color>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -81,10 +81,10 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="payu_blue">#368ecd</color>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -192,11 +192,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cb_activity_horizontal_margin">16dp</dimen>
     <dimen name="cb_activity_vertical_margin">16dp</dimen>
@@ -216,11 +216,11 @@
     <dimen name="cb_twelveScaled">12sp</dimen>
     <dimen name="cb_twentyfour">24dp</dimen>
     <dimen name="cb_two">2dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="circle_indicator_outer_radius">4dp</dimen>
     <dimen name="circle_indicator_radius">3dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -228,7 +228,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="eight">8dp</dimen>
     <dimen name="eighteen">18dp</dimen>
@@ -236,7 +236,7 @@
     <dimen name="fourteen">14dp</dimen>
     <dimen name="fourteenScaled">14sp</dimen>
     <dimen name="fourtytwo">48dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
@@ -244,7 +244,7 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="sixteen">16dp</dimen>
     <dimen name="sixteenScaled">16sp</dimen>
@@ -254,7 +254,7 @@
     <dimen name="twelveScaled">12sp</dimen>
     <dimen name="twentyfour">24dp</dimen>
     <dimen name="two">2dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -271,11 +271,11 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="MR_Error_text">Something Bad Happened!</string>
     <string name="MR_Tap_retry_text">Tap to Retry</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -294,7 +294,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_demo">Demo</string>
     <string name="action_exit">Exit</string>
@@ -302,7 +302,7 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">Test App</string>
     <string name="cancel">Cancel</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
     <eat-comment/>
     <string name="cb_analytics_waiting_for_otp">waiting_for_otp</string>
     <string name="cb_approve_otp">Approve</string>
@@ -359,10 +359,10 @@
     <string name="cb_success">success</string>
     <string name="cb_use_sms_otp">USE SMS OTP</string>
     <string name="cb_waiting_for_otp">Waiting for OTP</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="click_here">Click here</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
     <eat-comment/>
     <string name="com_mixpanel_android_close">Close</string>
     <string name="com_mixpanel_android_done">Done</string>
@@ -375,7 +375,7 @@
     <string name="com_mixpanel_android_sure">Sure</string>
     <string name="com_mixpanel_android_survey_prompt_dialog_message">Mind taking a quick survey?</string>
     <string name="com_mixpanel_android_survey_prompt_dialog_title">We\'d love your feedback!</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
@@ -385,10 +385,10 @@
     <string name="note">Note : You will be navigated to payment gateway.</string>
     <string name="ok">Ok</string>
     <string name="pay_now">Pay</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_card">CardActivity</string>
@@ -399,17 +399,17 @@
     <string name="title_activity_payments">PaymentsActivity</string>
     <string name="title_activity_user_cards">UserCardsActivity</string>
     <string name="title_activity_verify_api">VerifyApiActivity</string>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="AppTheme">
     </style>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1649,7 +1649,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
     <eat-comment/>
     <style name="cb_approve_otp" parent="android:Widget.Button">
         <item name="android:padding">0dp</item>
@@ -1672,7 +1672,7 @@
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/res/values/values.xml -->
     <eat-comment/>
     <style name="com_mixpanel_android_SurveyActivityAnimation">
     <item name="android:windowEnterAnimation">@anim/com_mixpanel_android_fade_in</item>
