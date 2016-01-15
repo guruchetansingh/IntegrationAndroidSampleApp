@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * 0MQaQP key is PayU's production  key and salt for this key is : 13p0PXZk
      */
-    private String productionKey = "0MQaQP";//"0O6LLO";//
+    private String productionKey = "0MQaQP";
 
 
     /**
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * <b>NOTE :</b> Never put salt in your app and
      * Hash generation from SDK is not recommended
      */
-    private String productionSalt = "13p0PXZk";//"4PveMZHI";//
+    private String productionSalt = "13p0PXZk";
 
 
     // TODO: 12/30/15 add server side hash generation link
