@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_layout_root_button"
+        android:layout_below="@+id/app_bar"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_row_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonLayout"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_root_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="5dp">
+
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Add New" />
+
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Next" />
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/Users/guruchetansingh/PayU%20Dev/sample%20aap/Android-SDK-Sample-App-s4.3.1c5.3.1%20copy/app/src/main/res/layout/activity_main.xml -->
