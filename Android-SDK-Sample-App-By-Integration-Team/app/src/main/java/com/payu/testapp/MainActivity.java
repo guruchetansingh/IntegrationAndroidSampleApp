@@ -608,6 +608,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void hashGenerationAPIResponse(PayuHashes payuHashes) {
         Log.i("GetData", "hashGenerationCompletionResponse ");
             nextButton.setEnabled(true); // lets allow the user to click the button again.
+        
         if(payuHashes!=null) {
             mPayuHashes = payuHashes;
             if (mPaymentParams.getEnableOneClickPayment() == PayuConstants.STORE_ONE_CLICK_HASH_SERVER)
