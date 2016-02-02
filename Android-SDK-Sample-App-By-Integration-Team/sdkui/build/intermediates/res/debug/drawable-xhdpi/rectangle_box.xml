@@ -21,4 +21,4 @@
             <stroke android:color="@color/cb_input_gray" android:width="2dp" />
         </shape>
     </item>
-</selector><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable-xhdpi/rectangle_box.xml --><!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/drawable-xhdpi/rectangle_box.xml -->
+</selector><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable-xhdpi/rectangle_box.xml --><!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/drawable-xhdpi/rectangle_box.xml -->

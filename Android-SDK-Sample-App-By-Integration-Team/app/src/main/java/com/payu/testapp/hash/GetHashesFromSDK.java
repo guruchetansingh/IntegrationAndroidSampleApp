@@ -57,17 +57,17 @@ public class GetHashesFromSDK {
 
         if ((postData = calculateHash(checksum,merchantKey, PayuConstants.PAYMENT_RELATED_DETAILS_FOR_MOBILE_SDK, var1, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR) // Assign post data first then check for success
             payuHashes.setPaymentRelatedDetailsForMobileSdkHash(postData.getResult());
-        //vas
+
         if ((postData = calculateHash(checksum,merchantKey, PayuConstants.VAS_FOR_MOBILE_SDK, PayuConstants.DEFAULT, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR)
             payuHashes.setVasForMobileSdkHash(postData.getResult());
 
-        // getIbibocodes
+
         if ((postData = calculateHash(checksum,merchantKey, PayuConstants.GET_MERCHANT_IBIBO_CODES, PayuConstants.DEFAULT, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR)
             payuHashes.setMerchantIbiboCodesHash(postData.getResult());
 
         if (!var1.contentEquals(PayuConstants.DEFAULT)) {
             // get user card
-            if ((postData = calculateHash(checksum,merchantKey, PayuConstants.GET_USER_CARDS, var1, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR) // todo rename storedc ard
+            if ((postData = calculateHash(checksum,merchantKey, PayuConstants.GET_USER_CARDS, var1, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR)
                 payuHashes.setStoredCardsHash(postData.getResult());
             // save user card
             if ((postData = calculateHash(checksum,merchantKey, PayuConstants.SAVE_USER_CARD, var1, merchantSalt)) != null && postData.getCode() == PayuErrors.NO_ERROR)

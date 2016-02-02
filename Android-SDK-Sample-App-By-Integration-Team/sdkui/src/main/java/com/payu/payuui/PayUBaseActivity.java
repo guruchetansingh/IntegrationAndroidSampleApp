@@ -286,6 +286,7 @@ public class PayUBaseActivity extends AppCompatActivity implements View.OnClickL
         }
 
         // no mater what response i get just show this button, so that we can go further.
-        findViewById(R.id.linear_layout_verify_api).setVisibility(View.VISIBLE);
+        findViewById(R.id.linear_layout_verify_api).setVisibility(View.GONE);
+
     }
 }

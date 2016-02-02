@@ -28,23 +28,19 @@ import java.util.Iterator;
 public class GetHashesFromServerTask extends AsyncTask<PaymentParams, String, PayuHashes> {
 
 
-
-    private  HashGenerationCallBack hashGenerationCallBack;
+    private HashGenerationCallBack hashGenerationCallBack;
     private String urlForHash;
 
-    public GetHashesFromServerTask(HashGenerationCallBack hashGenerationCallBack,String urlForHash)
-    {
+    public GetHashesFromServerTask(HashGenerationCallBack hashGenerationCallBack, String urlForHash) {
         Log.i("GetData", "GetHashesFromServerTask ");
-        this.hashGenerationCallBack=hashGenerationCallBack;
-        this.urlForHash=urlForHash;
+        this.hashGenerationCallBack = hashGenerationCallBack;
+        this.urlForHash = urlForHash;
     }
+
     @Override
     protected PayuHashes doInBackground(PaymentParams... paymentParams) {
 
-        /*
-        * This payuHashes object is used to capture all the hashes in itself.
-        * */
-        PayuHashes payuHashes = new PayuHashes();
+
         try {
 
             //here you need to put your hash generation URL
@@ -70,8 +66,13 @@ public class GetHashesFromServerTask extends AsyncTask<PaymentParams, String, Pa
             }
 
             JSONObject response = new JSONObject(responseStringBuffer.toString());
+            Log.i("GetData", "response = " + response);
 
-            Log.i("GetData", "response = "+response);
+            /*
+            * This payuHashes object is used to capture all the hashes in itself.
+            * */
+            PayuHashes payuHashes = new PayuHashes();
+
             Iterator<String> payuHashIterator = response.keys();
             while (payuHashIterator.hasNext()) {
                 String key = payuHashIterator.next();
@@ -114,6 +115,8 @@ public class GetHashesFromServerTask extends AsyncTask<PaymentParams, String, Pa
                 }
             }
 
+            return payuHashes;
+
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (ProtocolException e) {
@@ -123,7 +126,7 @@ public class GetHashesFromServerTask extends AsyncTask<PaymentParams, String, Pa
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return payuHashes;
+        return null;
     }
 
     @Override
@@ -137,8 +140,7 @@ public class GetHashesFromServerTask extends AsyncTask<PaymentParams, String, Pa
         return key + "=" + value + "&";
     }
 
-    private String createPostParamsForHashFromServer(PaymentParams mPaymentParams)
-    {
+    private String createPostParamsForHashFromServer(PaymentParams mPaymentParams) {
         // lets create the post params
         StringBuffer postParamsBuffer = new StringBuffer();
         postParamsBuffer.append(concatParams(PayuConstants.KEY, mPaymentParams.getKey()));

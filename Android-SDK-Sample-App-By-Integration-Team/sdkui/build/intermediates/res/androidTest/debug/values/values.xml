@@ -38,10 +38,11 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/values/values.xml -->
     <eat-comment/>
     <color name="cb_background">#f6f6f6</color>
     <color name="cb_blue_button">#368ecd</color>
+    <color name="cb_blue_button_light">#368ecf</color>
     <color name="cb_border">#d4dee2</color>
     <color name="cb_dark_blue_button">#094774</color>
     <color name="cb_dark_grey">#464646</color>
@@ -81,7 +82,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.4/res/values/values.xml -->
     <eat-comment/>
     <color name="payu_blue">#368ecd</color>
     <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
@@ -196,27 +197,22 @@
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/values/values.xml -->
     <eat-comment/>
-    <dimen name="cb_activity_horizontal_margin">16dp</dimen>
-    <dimen name="cb_activity_vertical_margin">16dp</dimen>
     <dimen name="cb_circle_indicator_outer_radius">4dp</dimen>
     <dimen name="cb_circle_indicator_radius">3dp</dimen>
     <dimen name="cb_eight">8dp</dimen>
     <dimen name="cb_eighteen">18dp</dimen>
     <dimen name="cb_four">4dp</dimen>
-    <dimen name="cb_fourteen">14dp</dimen>
     <dimen name="cb_fourteenScaled">14sp</dimen>
-    <dimen name="cb_fourtytwo">48dp</dimen>
+    <dimen name="cb_progress_bar_height">4dp</dimen>
     <dimen name="cb_sixteen">16dp</dimen>
     <dimen name="cb_sixteenScaled">16sp</dimen>
     <dimen name="cb_thirtysix">36dp</dimen>
-    <dimen name="cb_thirtytwo">32dp</dimen>
     <dimen name="cb_twelve">12dp</dimen>
     <dimen name="cb_twelveScaled">12sp</dimen>
     <dimen name="cb_twentyfour">24dp</dimen>
-    <dimen name="cb_two">2dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="circle_indicator_outer_radius">4dp</dimen>
     <dimen name="circle_indicator_radius">3dp</dimen>
@@ -228,7 +224,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="eight">8dp</dimen>
     <dimen name="eighteen">18dp</dimen>
@@ -244,7 +240,7 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="sixteen">16dp</dimen>
     <dimen name="sixteenScaled">16sp</dimen>
@@ -271,7 +267,7 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.4/res/values/values.xml -->
     <eat-comment/>
     <string name="MR_Error_text">Something Bad Happened!</string>
     <string name="MR_Tap_retry_text">Tap to Retry</string>
@@ -302,61 +298,59 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">Test App</string>
     <string name="cancel">Cancel</string>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/values/values.xml -->
     <eat-comment/>
-    <string name="cb_analytics_waiting_for_otp">waiting_for_otp</string>
     <string name="cb_approve_otp">Approve</string>
-    <string name="cb_approved_otp">approved OTP</string>
     <string name="cb_authenticate_with">Select an option for Faster Payment</string>
     <string name="cb_b_cancel">Cancel</string>
-    <string name="cb_b_retry">Retry</string>
+    <string name="cb_bank_logo">Bank LOGO</string>
     <string name="cb_bank_page_loading">Please wait. Bank page is loading..</string>
     <string name="cb_btn_action">btn_action</string>
-    <string name="cb_cancel">cancel</string>
     <string name="cb_card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
     <string name="cb_choose">choose</string>
     <string name="cb_detect_bank">detectBank</string>
     <string name="cb_detect_otp">detectOtp</string>
-    <string name="cb_detecting_bank">detecting bank</string>
-    <string name="cb_detecting_page">detecting page</string>
     <string name="cb_enter_manually">Enter Manually</string>
-    <string name="cb_enter_manually_log">enterManually</string>
     <string name="cb_enter_otp">enterOTP</string>
+    <string name="cb_enter_otp_c">Enter OTP</string>
     <string name="cb_enter_pin">enterPIN</string>
     <string name="cb_error">error</string>
-    <string name="cb_failure">failure</string>
+    <string name="cb_error_title">ERROR_TITLE</string>
     <string name="cb_find_otp">findOtp</string>
     <string name="cb_incorrect_OTP_2">incorrectOTP</string>
-    <string name="cb_incorrect_otp">INCORRECT OTP ENTERED</string>
+    <string name="cb_incorrect_otp_e">Incorrect OTP!</string>
     <string name="cb_incorrect_password">Incorrect Password</string>
     <string name="cb_incorrect_pin">incorrectPIN</string>
     <string name="cb_init">init</string>
-    <string name="cb_missing_txn_id">Missing Transaction ID</string>
+    <string name="cb_nb_image">net banking image</string>
+    <string name="cb_no_internet">NO INTERNET CONNECTIVITY</string>
     <string name="cb_otp">otp</string>
     <string name="cb_otp_received">OTP Received</string>
-    <string name="cb_otp_wv">OTP_WV</string>
     <string name="cb_password">PASSWORD</string>
     <string name="cb_password_value">Password</string>
+    <string name="cb_payu_icon">PayU icon</string>
+    <string name="cb_payu_response">payu_response</string>
     <string name="cb_pin">pin</string>
-    <string name="cb_pin_c">PIN</string>
-    <string name="cb_pin_wv">PIN_WV</string>
+    <string name="cb_please_wait">Please Wait</string>
     <string name="cb_populate_user_id">populate_user_id</string>
+    <string name="cb_powered_by">Powered by</string>
     <string name="cb_process_otp">process_otp</string>
-    <string name="cb_reg_otp">REGENERATE OTP</string>
+    <string name="cb_process_request">Processing Your Request</string>
     <string name="cb_regen_otp">regenerate_otp</string>
     <string name="cb_regenerate">regenerate</string>
     <string name="cb_regenerate_otp">Regenerate OTP</string>
-    <string name="cb_regenerate_otp_text">It is taking long.You may...</string>
+    <string name="cb_regenerate_otp_text">It is taking long.You may…</string>
     <string name="cb_register">register</string>
     <string name="cb_register_for_pin">REGISTER FOR PIN</string>
     <string name="cb_register_option">registerOption</string>
     <string name="cb_registeration_detail">Enter your registration details</string>
+    <string name="cb_remember_user">Remember User ID</string>
     <string name="cb_result">result</string>
     <string name="cb_retry">retry...</string>
     <string name="cb_retry_otp">retryOTP</string>
     <string name="cb_skip_screen">skipScreen</string>
     <string name="cb_sms_otp">SMS OTP</string>
-    <string name="cb_success">success</string>
+    <string name="cb_top_arrow">CB arrow</string>
     <string name="cb_use_sms_otp">USE SMS OTP</string>
     <string name="cb_waiting_for_otp">Waiting for OTP</string>
     <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/bundles/debug/res/values/values.xml -->
@@ -1649,7 +1643,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/values/values.xml -->
+    <!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/values/values.xml -->
     <eat-comment/>
     <style name="cb_approve_otp" parent="android:Widget.Button">
         <item name="android:padding">0dp</item>

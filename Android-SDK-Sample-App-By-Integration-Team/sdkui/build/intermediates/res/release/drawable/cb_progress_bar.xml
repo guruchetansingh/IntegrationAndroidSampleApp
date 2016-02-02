@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="0dip"  />
+            <solid android:color="@android:color/transparent"/>
+
+        </shape>
+    </item>
+
+
+    <item
+        android:id="@android:id/progress"
+        >
+        <clip>
+            <shape>
+                <corners
+                    android:radius="0dip" />
+                <gradient
+                    android:startColor="@color/cb_blue_button_light"
+                    android:endColor="@color/cb_blue_button"
+                    android:angle="270" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable/cb_progress_bar.xml --><!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.7/res/drawable/cb_progress_bar.xml -->

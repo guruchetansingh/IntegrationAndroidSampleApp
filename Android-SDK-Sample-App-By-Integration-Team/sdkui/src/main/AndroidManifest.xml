@@ -33,6 +33,7 @@
             android:configChanges="orientation|keyboard|screenSize"
             android:windowSoftInputMode="adjustPan">
         </activity>
+
     </application>
 
 </manifest>

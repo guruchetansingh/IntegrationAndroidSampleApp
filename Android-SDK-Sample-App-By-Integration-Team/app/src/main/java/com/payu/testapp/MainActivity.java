@@ -43,11 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         DeleteMerchantHashCallBack, FetchMerchantHashesCallBack, StoreMerchantHashCallBack
         , HashGenerationCallBack {
 
-//// TODO: 12/29/15 add more documentation about env and linking to MOBILE_STAGING_ENV,STAGING_ENV,PRODUCTION_ENV
+
     /**
      * This variable is used to switch between production or testing environment.
+     *
+     *STAGING_ENV=2,PRODUCTION_ENV=0
      */
-    private int env = PayuConstants.PRODUCTION_ENV;
+    private int env = PayuConstants.STAGING_ENV;
 
     /**
      * gtKFFx key is PayU's test key and salt for this key is : eCwWELxi
@@ -142,20 +144,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * This url should be merchant's server url.
      * For one tap payment, merchant hash and card token will be stored at merchant's server using this url.
      */
-    private String urlForStoreMerchantHash = "https://payu.herokuapp.com/store_merchant_hash";
+    private String urlForStoreMerchantHash = "https://payu.herokuapp.com/store_merchant_hash";//change with your server url
 
     /**
      * This url should be merchant's server url.
      * For one tap payment, all stored merchant hashes and card tokens
      * will be fetched from merchant's server using this url.
      */
-    private String urlForFetchingMerchantHash = "https://payu.herokuapp.com/get_merchant_hashes";
+    private String urlForFetchingMerchantHash = "https://payu.herokuapp.com/get_merchant_hashes";//change with your server url
 
     /**
      * This url should be merchant's server url.
      * For one tap payment, deleting merchant hashes and card tokens
      */
-    private String urlForDeleteMerchantHash = "https://payu.herokuapp.com/delete_merchant_hash";
+    private String urlForDeleteMerchantHash = "https://payu.herokuapp.com/delete_merchant_hash";//change with your server url
 
     private Toolbar toolBar;
     private ScrollView mainScrollView;
@@ -176,6 +178,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // lets set up the tool bar
         toolBar = (Toolbar) findViewById(R.id.app_bar);
@@ -517,15 +520,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void controlBack(int requestCode, int resultCode, final Intent data) {
-         /*After transaction completion success/failure contol will come back in this method*/
+         /*After transaction completion success/failure control will come back in this method*/
         if (requestCode == PayuConstants.PAYU_REQUEST_CODE) {
             if (data != null) {
 
                 try {
-                    //call if surl-furl is hit
+                    //call if surl-furl is implement on merchant server.
                     //Toast.makeText(this, "RESULT\n"+data.getStringExtra("result"), Toast.LENGTH_SHORT).show();
+                    Log.i("GetData", "result =  "+data.getStringExtra("result"));
 
                     JSONObject jsonObject = new JSONObject(data.getStringExtra(PayuConstants.PAYU_RESPONSE));
+                    Log.i("GetData", "jsonObject =  "+jsonObject.toString());
                     new AlertDialog.Builder(this)
                             .setCancelable(false)
                             .setMessage(jsonObject.toString())
@@ -602,11 +607,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void hashGenerationAPIResponse(PayuHashes payuHashes) {
         Log.i("GetData", "hashGenerationCompletionResponse ");
-        mPayuHashes=payuHashes;
-        nextButton.setEnabled(true); // lets allow the user to click the button again.
-        if (mPaymentParams.getEnableOneClickPayment() == PayuConstants.STORE_ONE_CLICK_HASH_SERVER)
-            new FetchMerchantHashes(this, urlForFetchingMerchantHash, mPaymentParams).execute();
+            nextButton.setEnabled(true); // lets allow the user to click the button again.
+        if(payuHashes!=null) {
+            mPayuHashes = payuHashes;
+            if (mPaymentParams.getEnableOneClickPayment() == PayuConstants.STORE_ONE_CLICK_HASH_SERVER)
+                new FetchMerchantHashes(this, urlForFetchingMerchantHash, mPaymentParams).execute();
+            else
+                launchSdkUI(payuHashes, payuConfig, mPaymentParams, null);
+        }
         else
-            launchSdkUI(payuHashes, payuConfig, mPaymentParams, null);
+            Toast.makeText(this, "payuHashes = "+payuHashes, Toast.LENGTH_SHORT).show();
     }
+
 }

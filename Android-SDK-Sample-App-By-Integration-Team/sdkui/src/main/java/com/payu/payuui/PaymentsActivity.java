@@ -171,13 +171,13 @@ public class PaymentsActivity extends AppCompatActivity implements MagicRetryFra
             initMagicRetry();
 
             mWebView.setWebChromeClient(new PayUWebChromeClient(bank));
-            mWebView.setWebViewClient(new PayUWebViewClient(bank, magicRetryFragment));
+            mWebView.setWebViewClient(new PayUWebViewClient(bank, magicRetryFragment,merchantKey));
             //mWebView is the WebView Object
             magicRetryFragment.setWebView(mWebView);
             // MR Integration - initMRSettingsFromSharedPreference
             magicRetryFragment.initMRSettingsFromSharedPreference(this);
+
             Log.i("GetData", "payuConfig.getData() =  " + payuConfig.getData());
-            Log.i("GetData", "Agent =  " + mWebView.getSettings().getUserAgentString());
             mWebView.postUrl(url, payuConfig.getData().getBytes());
             (new PayuUtils()).deviceAnalytics(PaymentsActivity.this, Bank.Version, merchantKey, txnId);
         } catch (ClassNotFoundException e) {
@@ -409,3 +409,5 @@ public class PaymentsActivity extends AppCompatActivity implements MagicRetryFra
         toggleFragmentVisibility(Util.HIDE_FRAGMENT);
     }
 }
+
+

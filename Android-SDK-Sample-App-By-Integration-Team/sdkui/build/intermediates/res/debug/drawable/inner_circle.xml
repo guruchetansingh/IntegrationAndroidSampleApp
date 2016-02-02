@@ -1,7 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-
-    <solid android:angle="360"
-        android:color="#1E90FF"/>
-    <size android:width="8dp" android:height="8dp"/>
-</shape><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable/inner_circle.xml --><!-- From: file:/Users/guruchetansingh/Personal/git/IntegrationAndroidSampleApp/Android-SDK-Sample-App-By-Integration-Team/sdkui/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/5.3.3/res/drawable/inner_circle.xml -->
