@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MagicRetry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="MR_Error_text">Something Bad Happened!</string>
+    <string name="MR_Tap_retry_text">Tap to Retry</string>
+</resources>
